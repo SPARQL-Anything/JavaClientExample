@@ -7,7 +7,6 @@ You can compile the project by using Maven.
 mvn install
 ```
 
-Then, you can run the examples.
 
 The following command runs the class showing how to use SPARQL Anything via the SPARQL client.
 
@@ -15,11 +14,6 @@ The following command runs the class showing how to use SPARQL Anything via the 
 mvn exec:java -Dexec.mainClass="sparqlanything.user.SPARQLAnythingClientViaSPARQL" 
 ```
 
-The following command runs the class showing how to use SPARQL Anything Triplifier.
-
-```
-mvn exec:java -Dexec.mainClass="sparqlanything.user.SPARQLAnythingClientViaTriplifier" 
-```
 
 ## Licence
 
